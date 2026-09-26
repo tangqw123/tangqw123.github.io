@@ -6,8 +6,61 @@
     <description>Recent content on 我的博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 10 Sep 2026 11:26:23 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 21:09:35 +0800</lastBuildDate>
     <atom:link href="https://tangqw123.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>我的第二篇文章</title>
+      <link>https://tangqw123.github.io/posts/second-post/</link>
+      <pubDate>Wed, 23 Sep 2026 21:09:35 +0800</pubDate>
+      <guid>https://tangqw123.github.io/posts/second-post/</guid>
+      <description>&lt;p&gt;#web week1学习周：
+##掌握Bing/Google常用搜索语法
+&lt;code&gt;&amp;quot;短语&amp;quot;&lt;/code&gt;：精确匹配完整语句
+&lt;code&gt;filetype:后缀&lt;/code&gt;：限定搜索文件类型pdf/md
+&lt;code&gt;site:域名&lt;/code&gt;：限定在指定网站搜索
+&lt;code&gt;-关键词&lt;/code&gt;：排除不需要的搜索结果
+##学习AI Agent配置&lt;/p&gt;
+&lt;h3 id=&#34;apitoken&#34;&gt;API‑Token&lt;/h3&gt;
+&lt;p&gt;泄露后果：别人盗用token消耗账户余额，账号可能被风控封禁。&lt;/p&gt;
+&lt;h2 id=&#34;http协议&#34;&gt;HTTP协议&lt;/h2&gt;
+&lt;h3 id=&#34;get与post区别&#34;&gt;GET与POST区别&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;GET：参数放在URL地址栏，多用于获取页面，不适合传密码。&lt;/li&gt;
+&lt;li&gt;POST：参数放在请求Body请求体，适合提交登录表单。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;常见请求头的作用&#34;&gt;常见请求头的作用&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;User‑Agent&lt;/code&gt;：告诉服务器客户端浏览器信息&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Cookie&lt;/code&gt;：浏览器存储身份凭证，每次请求自动携带&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Referer&lt;/code&gt;：记录请求从哪个页面跳转而来&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;鉴权&#34;&gt;鉴权&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Session：身份数据保存在服务端，Cookie仅存放SessionID编号。&lt;/li&gt;
+&lt;li&gt;JWT：身份信息编码在Token字符串内部，不需要服务器存储会话。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;状态码的含义&#34;&gt;状态码的含义&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;200：请求成功&lt;/li&gt;
+&lt;li&gt;302：重定向跳转&lt;/li&gt;
+&lt;li&gt;403：权限不足禁止访问&lt;/li&gt;
+&lt;li&gt;5xx：服务器/代理出错（如502）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;任务7前端三件套-html--css--javascript&#34;&gt;任务7：前端三件套 HTML / CSS / JavaScript&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;HTML：网页骨架。&lt;/li&gt;
+&lt;li&gt;CSS：页面样式美化。&lt;/li&gt;
+&lt;li&gt;JavaScript：浏览器本地交互逻辑。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;f12开发者工具&#34;&gt;F12开发者工具&lt;/h2&gt;
+&lt;p&gt;F12开发者工具核心面板：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;元素(Elements)：查看修改HTML、CSS&lt;/li&gt;
+&lt;li&gt;控制台(Console)：运行JS，查看报错&lt;/li&gt;
+&lt;li&gt;网络(Network)：浏览器自带抓包，仅能观察，不能修改已发送的请求。
+（os:部分使用AI）&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
     <item>
       <title>我的第一篇文章</title>
       <link>https://tangqw123.github.io/posts/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</link>
